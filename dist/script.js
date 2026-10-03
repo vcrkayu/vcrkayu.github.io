@@ -7,13 +7,14 @@ const IMAGE_PATHS = {
   portrait: "",
   thermal: "images/htp-tank.png",
   xenon: "images/ep-thruster-drawing.png",
-  geothermal: "",
-  clamp: ""
+  geothermal: "images/geothermal-cycle.jpg",
+  clamp: "images/clamp-mould-toolpaths.jpg"
 };
 
 document.querySelectorAll("[data-slot]").forEach((slot) => {
   const path = IMAGE_PATHS[slot.dataset.slot];
   if (!path) return;
+  if (!slot.querySelector(".image-placeholder")) return;
   const img = slot.querySelector("img");
   const placeholder = slot.querySelector(".image-placeholder");
   // Hidden lazy images can wait indefinitely for layout; load configured images now.
