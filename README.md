@@ -62,3 +62,9 @@ The background is a CSS gradient blending soft lavender, pink, and peach, with n
 Contact details, education dates, additional experience, leadership, and flight training come from the supplied resume. The original resume is included unchanged at `dist/downloads/Vedant_Ranganathan_Resume.pdf`. Replace that file to update the download.
 
 The resume's email annotation points to `mailto:x@x.com`; the website's contact link uses the correct visible address, `vedant.ranganathan@mail.mcgill.ca`. Project copy follows the engineering portfolio's detailed qualifications where its description of validation differs from the resume.
+
+## October 2026 update
+
+Added Recovery Structures membership in McGill Rocket Team (September 2026–Present), updated the introduction, and rewrote the project descriptions in a conversational context–work–approach–result flow. Internship and university projects have separate section headings. The resume download is the supplied Vedant_Ranganathan_CV.pdf.
+
+McGill Rocket Team logo: SVG from the footer of the [official team website](https://www.mcgillrocketteam.com/), accessed October 3, 2026.
