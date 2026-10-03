@@ -46,3 +46,8 @@ body{font-size:1.0625rem;line-height:1.8}
 /* Show university project pictures at their natural proportions without gray bars. */
 #university-projects .project-image{background:transparent;border-radius:0}
 #university-projects .project-image img{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:contain;background:transparent}
+
+/* Display project images directly, without a background box. */
+.project-image,.project-image.thermal,.project-image.xenon{background:transparent;border:0;border-radius:0;aspect-ratio:auto;overflow:visible}
+.project-image .asset-preview{height:auto;background:transparent;overflow:visible}
+.project-image img,.project-image.thermal img,.project-image.xenon img{width:100%;height:auto;aspect-ratio:auto;object-fit:contain;background:transparent;border:0;border-radius:0;transform:none}
