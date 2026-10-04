@@ -4,7 +4,7 @@
    Empty paths intentionally show the designed placeholders.
    Supported formats include JPG, PNG, WebP, and SVG. */
 const IMAGE_PATHS = {
-  portrait: "",
+  portrait: "images/portrait-enhanced.png",
   thermal: "images/htp-tank.png",
   xenon: "images/ep-thruster-drawing.png",
   geothermal: "images/geothermal-cycle.jpg",
